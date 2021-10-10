@@ -59,4 +59,54 @@
 	<servlet-name>GetTimelineByIndex</servlet-name>
 	<url-pattern>/TimelineByIndex</url-pattern>
   </servlet-mapping>
+
+<servlet>
+	<servlet-name>GetIndexMembers</servlet-name>
+	<servlet-class>racer.fund.GetIndexMembers</servlet-class>
+	<init-param>
+		<param-name>driver</param-name>
+		<param-value>com.mysql.cj.jdbc.Driver</param-value>
+	</init-param>
+	<init-param>
+		<param-name>url</param-name>
+		<param-value>jdbc:mysql://94.191.41.52:3306/hgswiki</param-value>
+	</init-param>
+	<init-param>
+		<param-name>user</param-name>
+		<param-value>hgsadmin</param-value>
+	</init-param>
+	<init-param>
+		<param-name>password</param-name>
+		<param-value>summercozy</param-value>
+	</init-param>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>GetIndexMembers</servlet-name>
+	<url-pattern>/IndexMembers</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+	<servlet-name>InsertIndexMember</servlet-name>
+	<servlet-class>racer.fund.InsertIndexMember</servlet-class>
+	<init-param>
+		<param-name>driver</param-name>
+		<param-value>com.mysql.cj.jdbc.Driver</param-value>
+	</init-param>
+	<init-param>
+		<param-name>url</param-name>
+		<param-value>jdbc:mysql://94.191.41.52:3306/hgswiki</param-value>
+	</init-param>
+	<init-param>
+		<param-name>user</param-name>
+		<param-value>hgsadmin</param-value>
+	</init-param>
+	<init-param>
+		<param-name>password</param-name>
+		<param-value>summercozy</param-value>
+	</init-param>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>InsertIndexMember</servlet-name>
+	<url-pattern>/InsertMember</url-pattern>
+  </servlet-mapping>
 </web-app>
