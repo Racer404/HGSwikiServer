@@ -48,6 +48,7 @@ public class InsertNewWiki extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		request.setCharacterEncoding("utf-8");
 		response.setContentType("text/json; charset=utf-8");
 		response.addHeader("access-control-allow-origin", "*");
 		String title=request.getParameter("title");
