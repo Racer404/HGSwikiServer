@@ -19,7 +19,7 @@
 	</init-param>
 	<init-param>
 		<param-name>url</param-name>
-		<param-value>jdbc:mysql://94.191.41.52:3306/hgswiki</param-value>
+		<param-value>jdbc:mysql://hgswiki.club:3306/hgswiki</param-value>
 	</init-param>
 	<init-param>
 		<param-name>user</param-name>
@@ -44,7 +44,7 @@
 	</init-param>
 	<init-param>
 		<param-name>url</param-name>
-		<param-value>jdbc:mysql://94.191.41.52:3306/hgswiki</param-value>
+		<param-value>jdbc:mysql://hgswiki.club:3306/hgswiki</param-value>
 	</init-param>
 	<init-param>
 		<param-name>user</param-name>
@@ -69,7 +69,7 @@
 	</init-param>
 	<init-param>
 		<param-name>url</param-name>
-		<param-value>jdbc:mysql://94.191.41.52:3306/hgswiki</param-value>
+		<param-value>jdbc:mysql://hgswiki.club:3306/hgswiki</param-value>
 	</init-param>
 	<init-param>
 		<param-name>user</param-name>
@@ -94,7 +94,7 @@
 	</init-param>
 	<init-param>
 		<param-name>url</param-name>
-		<param-value>jdbc:mysql://94.191.41.52:3306/hgswiki</param-value>
+		<param-value>jdbc:mysql://hgswiki.club:3306/hgswiki</param-value>
 	</init-param>
 	<init-param>
 		<param-name>user</param-name>
@@ -119,7 +119,7 @@
 	</init-param>
 	<init-param>
 		<param-name>url</param-name>
-		<param-value>jdbc:mysql://94.191.41.52:3306/hgswiki</param-value>
+		<param-value>jdbc:mysql://hgswiki.club:3306/hgswiki</param-value>
 	</init-param>
 	<init-param>
 		<param-name>user</param-name>
